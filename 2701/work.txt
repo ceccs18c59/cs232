@@ -1,0 +1,27 @@
+Script started on Monday 27 January 2020 10:23:36 AM IST
+]0;s4c1@lab2-Veriton-Series: ~s4c1@lab2-Veriton-Series:~$ cd ceccs18c59/cs232
+]0;s4c1@lab2-Veriton-Series: ~/ceccs18c59/cs232s4c1@lab2-Veriton-Series:~/ceccs18c59/cs232$ echo ""T"h"i"s" "i"s" "a" "T"[1P"t"e"s"t" "f"i"l"e"."[C > text. txt
+]0;s4c1@lab2-Veriton-Series: ~/ceccs18c59/cs232s4c1@lab2-Veriton-Series:~/ceccs18c59/cs232$ git init
+Reinitialized existing Git repository in /home/s4c1/ceccs18c59/cs232/.git/
+]0;s4c1@lab2-Veriton-Series: ~/ceccs18c59/cs232s4c1@lab2-Veriton-Series:~/ceccs18c59/cs232$ git pull http>[K://gitu[Khub.com/ceccs18c 59/cs232
+From http://github.com/ceccs18c59/cs232
+ * branch            HEAD       -> FETCH_HEAD
+Already up-to-date.
+]0;s4c1@lab2-Veriton-Series: ~/ceccs18c59/cs232s4c1@lab2-Veriton-Series:~/ceccs18c59/cs232$ git add test.r[Ktxt
+]0;s4c1@lab2-Veriton-Series: ~/ceccs18c59/cs232s4c1@lab2-Veriton-Series:~/ceccs18c59/cs232$ git config -- [Kglobal user.email ""j"u" [A]0;s4c1@lab2-Veriton-Series: ~/ceccs18c59/cs232s4c1@lab2-Veriton-Series:~/ceccs18c59/cs232$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cz""t"z"o"x"@"g"m"a"i"l"."c"o"m"[C
+]0;s4c1@lab2-Veriton-Series: ~/ceccs18c59/cs232s4c1@lab2-Veriton-Series:~/ceccs18c59/cs232$ git config --global user [K.name ""c"e"c" [A]0;s4c1@lab2-Veriton-Series: ~/ceccs18c59/cs232s4c1@lab2-Veriton-Series:~/ceccs18c59/cs232$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cs""[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C" [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cc""s"1"8"c"5"9"[C
+]0;s4c1@lab2-Veriton-Series: ~/ceccs18c59/cs232s4c1@lab2-Veriton-Series:~/ceccs18c59/cs232$ git commit =[K-m ""F"i"r"s"t" "c"o"m"m"i"t" "f"r"o"m" "L" [A]0;s4c1@lab2-Veriton-Series: ~/ceccs18c59/cs232s4c1@lab2-Veriton-Series:~/ceccs18c59/cs232$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ca""b"[C
+[master 870374e] First commit from Lab
+ 1 file changed, 1 insertion(+)
+ create mode 100644 test.txt
+]0;s4c1@lab2-Veriton-Series: ~/ceccs18c59/cs232s4c1@lab2-Veriton-Series:~/ceccs18c59/cs232$ git remote add origin https://githu b.com/ceccs18cxx/cs232[1P/cs232[1P/cs2325/cs2329/cs232
+]0;s4c1@lab2-Veriton-Series: ~/ceccs18c59/cs232s4c1@lab2-Veriton-Series:~/ceccs18c59/cs232$ git push - origin master
+usage: git receive-pack <git-dir>
+fatal: The remote end hung up unexpectedly
+]0;s4c1@lab2-Veriton-Series: ~/ceccs18c59/cs232s4c1@lab2-Veriton-Series:~/ceccs18c59/cs232$ git o[Kpush
+Username for 'https://github.com': ccec   c eccs18c59
+Password for 'https://ceccs18c59@github.com': 
+To https://github.com/ceccs18c59/cs232
+   7f64012..870374e  master -> master
+]0;s4c1@lab2-Veriton-Series: ~/ceccs18c59/cs232s4c1@lab2-Veriton-Series:~/ceccs18c59/cs232$ exit
+Script done on Monday 27 January 2020 10:30:17 AM IST

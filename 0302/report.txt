@@ -1,0 +1,50 @@
+CEC CS 18 c59
+Thejus R
+
+----------------------------------------------------------
+#1: Aim/task : To Find the Results CS Students & FTP Usage
+----------------------------------------------------------
+
+-------------------------
+Input and Output of Shell
+-------------------------
+$ mkdir ceccs18c59
+$ cd ceccs18c59
+$ mkdir cs232
+$ cd cs232
+$ dir
+result_CHN.pdf
+$ pdftotext -layout result_CHN.pdf >>result_CHN.txt
+$ dir
+result_CHN.pdf	result_CHN.txt
+$ grep "CHN18CS" result_CHN.txt << result_CS.txt
+$ sftp cs18c59@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs18c59@192.168.0.30's password: 
+Connected to 192.168.0.30.
+sftp> mkdir 0302
+sftp> cd 0302
+sftp> put report.txt 
+Uploading report.txt to /home/cs18c59/0302/report.txt
+report.txt                                                    100%   11     0.0KB/s   00:00    
+sftp> put report.txt 
+Uploading report.txt to /home/cs18c59/0302/work.txt
+work.txt                                                      100%   11     0.0KB/s   00:00 
+sftp> put report.txt 
+Uploading report.txt to /home/cs18c59/0302/result_CS.txt 
+result_CS.txt                                                 100%   11     0.0KB/s   00:00 
+sftp> exit
+
+
+-------------------
+Remarks if any:
+-------------------
+#1 : Successfully Completed seperating CS students list from College Results
+
+#2 : Successfullt completed Uploading the report.txt, work.txt & result_CS.txt
+
+

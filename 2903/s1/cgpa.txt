@@ -1,0 +1,63 @@
+CHN18CS002 Abhijith P  failed in 4 subjects. 
+CHN18CS003 Abin Binu Sam 9.33
+CHN18CS005 Adhil Shahanad K K  8.06
+CHN18CS006 Adwaith Sivan  failed in 3 subjects. 
+CHN18CS007 Aju George Jacob  8.56
+CHN18CS008 Akhil Ravindran  7.94
+CHN18CS012 Alka Anna Sabu  8.22
+CHN18CS015 Amal Ramachandran  failed in 4 subjects. 
+CHN18CS018 Anjana S  9.33
+CHN18CS023 Aravind R  7.89
+CHN18CS024 Arjun A  failed in 3 subjects. 
+CHN18CS025 Arjun G Krishna 8.11
+CHN18CS028 Ashik David Abraham failed in 2 subjects. 
+CHN18CS029 Ashna A  9.17
+CHN18CS035 Deepa Mariam George  9.17
+CHN18CS037 Devika J  8.44
+CHN18CS039 Emmanuel Shine Joseph  8.17
+CHN18CS043 George Mani  8.06
+CHN18CS046 Gopika Pradeep failed in 2 subjects. 
+CHN18CS047 Gopika Suresh  failed in 1 subjects. 
+CHN18CS048 Gopudas KM  failed in 4 subjects. 
+CHN18CS049 Govind Kartha  8.56
+CHN18CS051 Habel James George  failed in 2 subjects. 
+CHN18CS052 Hari S R  failed in 5 subjects. 
+CHN18CS053 Heleena Anna Varghese  7.72
+CHN18CS055 lrene Maria Zachariah  failed in 1 subjects. 
+CHN18CS056 Jalena Mathew  8.39
+CHN18CS057 Jeenu Chacko  8.06
+CHN18CS060 Jessal John Mammen  failed in 1 subjects. 
+CHN18CS061 Jesswin W Varghese  failed in 2 subjects. 
+CHN18CS063 Jibin Joseph  8.44
+CHN18CS064 Jisa Surendran failed in 1 subjects. 
+CHN18CS068 Jonathan John Varghese  7.83
+CHN18CS069 Joshena Joseph 8.22
+CHN18CS071 Justin Joseph failed in 3 subjects. 
+CHN18CS073 Kavya M 8.83
+CHN18CS076 Kiran U  failed in 1 subjects. 
+CHN18CS079 Manu Mathew  7.89
+CHN18CS080 Margret Jaison  9.33
+CHN18CS082 Muhammad Jalal  7.89
+CHN18CS083 Munish Kumar  failed in 4 subjects. 
+CHN18CS084 Najeeb  7.78
+CHN18CS090 Nimmy George  failed in 5 subjects. 
+CHN18CS092 Nivea Gigen  8.83
+CHN18CS093 Nivya Maria Mathew  9.61
+CHN18CS095 Parvathy Krishnan  9.11
+CHN18CS096 Parvathy Santhosh  8.00
+CHN18CS097 Prayank P Nair  8.06
+CHN18CS100 Remya C  8.83
+CHN18CS101 Remya Raveedranathan 7.94
+CHN18CS103 Rinu Elisabath Mathew  9.00
+CHN18CS104 Rojin K Sunny  9.11
+CHN18CS108 Sarath Kumar S  failed in 3 subjects. 
+CHN18CS109 Saurav K J  failed in 2 subjects. 
+CHN18CS110 Seba Susan Mathew  failed in 1 subjects. 
+CHN18CS111 Shilpa Sajan Punnose 8.33
+CHN18CS113 Sona Sebastrian 8.50
+CHN18CS114 Soumyamol S  failed in 1 subjects. 
+CHN18CS115 Sreejith Murali 8.72
+CHN18CS118 Thejus R  8.06
+CHN18CS120 Vishnu SS  7.11
+CHN18CS121 Vishvanath R Athreya 8.22
+CHN18CS122 Vivek K P  8.56

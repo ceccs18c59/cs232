@@ -1,0 +1,63 @@
+CHN18CS002,Abhiith P,1
+CHN18CS003,Abin Binu Sam,2
+CHN18CS005,Adhil Shahanad K K,3
+CHN18CS006,Adwaith Sivan,4
+CHN18CS007,Aju George Jacob,5
+CHN18CS008,Akhil Ravindran,6
+CHN18CS012,Alka Anna Sabu,7
+CHN18CS015,Amal Ramachandran,8
+CHN18CS018,Anjana S,9
+CHN18CS023,Aravind R,10
+CHN18CS024,Arjun A,11
+CHN18CS025,Arjun G Krishna,12
+CHN18CS028,Ashik David Abraham,13
+CHN18CS029,Ashna A,14
+CHN18CS035,Deepa Mariam George,15
+CHN18CS037,Devika J,16
+CHN18CS039,Emmanuel Shine Joseph,17
+CHN18CS043,George Mani,18
+CHN18CS046,Gopika Pradeep,19
+CHN18CS047,Gopika Suresh,20
+CHN18CS048,Gopudas K M,21
+CHN18CS049,Govind Kartha,22
+CHN18CS051,Habel James George,23
+CHN18CS052,Hari S R,24
+CHN18CS053,Heleena Anna Varghese,25
+CHN18CS055,Irene Maria Zachariah,26
+CHN18CS056,Jalena Mathew,27
+CHN18CS057,Jeenu Chacko,28
+CHN18CS060,Jessal John Mammen,29
+CHN18CS061,Jesswin W Varghese,30
+CHN18CS063,Jibin Joseph,31
+CHN18CS064,Jisa Surendran,32
+CHN18CS068,Jonathan John Varghese,33
+CHN18CS069,Joshena Joseph,34
+CHN18CS071,Justin Joseph,35
+CHN18CS073,Kavya M,36
+CHN18CS076,Kiran U,37
+CHN18CS079,Manu Mathew,38
+CHN18CS080,Margret Jaison,39
+CHN18CS082,Muhammad Jalal,40
+CHN18CS083,Munish Kumar,41
+CHN18CS084,Najeeb,42
+CHN18CS090,Nimmy George,43
+CHN18CS092,Nivea Gigen,44
+CHN18CS093,Nivya Maria Mathew,45
+CHN18CS095,Parvathy Krishnan,46
+CHN18CS096,Parvathy Santhosh,47
+CHN18CS097,Prayank P Nair,48
+CHN18CS100,Remya C,49
+CHN18CS101,Remya Raveedranathan,50
+CHN18CS103,Rinu Elisabath Mathew,51
+CHN18CS104,Rojin K Sunny,52
+CHN18CS108,Sarath Kumar S,53
+CHN18CS109,Saurav K.J,54
+CHN18CS110,Seba Susan Mathew,55
+CHN18CS111,Shilpa Sajan Punnoose,56
+CHN18CS113,Sona Sebastian,57
+CHN18CS114,Soumyamol S,58
+CHN18CS115,Sreejith Murali,59
+CHN18CS118,Thejus R,60
+CHN18CS120,Vishnu S S,61
+CHN18CS121,Vishwanath R Athrey,62
+CHN18CS122,Vivek K P,63

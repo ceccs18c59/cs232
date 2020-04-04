@@ -1,0 +1,197 @@
+Script started on 2020-04-04 16:56:37+05:30 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="101" LINES="24"]
+]0;thejusr@veronica:~/Desktop/FOSS LAB[01;32m[thejusr@veronica[01;37m FOSS LAB[01;32m]$[00m mkdir CS232
+]0;thejusr@veronica:~/Desktop/FOSS LAB[01;32m[thejusr@veronica[01;37m FOSS LAB[01;32m]$[00m cd CS232
+]0;thejusr@veronica:~/Desktop/FOSS LAB/CS203[01;32m[thejusr@veronica[01;37m CS203[01;32m]$[00m mkdur[K[Kir 0404
+]0;thejusr@veronica:~/Desktop/FOSS LAB/CS203[01;32m[thejusr@veronica[01;37m CS203[01;32m]$[00m cs[Kd 0404
+]0;thejusr@veronica:~/Desktop/FOSS LAB/CS203/0404[01;32m[thejusr@veronica[01;37m 0404[01;32m]$[00m nam[Kno scrio[Kpt [K.sh
+[?2004h[?1049h[22;0;0t[1;24r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[22;45H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 4.9                                  script.sh                                            [1;100H(B[m
+[23d(B[0;7m^G(B[m Get Help   (B[0;7m^O(B[m Write Out  (B[0;7m^W(B[m Where Is   (B[0;7m^K(B[m Cut Text   (B[0;7m^J(B[m Justify    (B[0;7m^C(B[m Cur Pos    (B[0;7mM-U(B[m Undo
+[24d(B[0;7m^X(B[m Exit[15G(B[0;7m^R(B[m Read File  (B[0;7m^\(B[m Replace    (B[0;7m^U(B[m Paste Text (B[0;7m^T(B[m To Spell   (B[0;7m^_(B[m Go To Line (B[0;7mM-E(B[m Redo
+[22d[2d[39;49m(B[m[?12l[?25h[?25l[1;92H(B[0;7mModified
+[22d(B[m[K[1;100H
+[2drm result_all
+[3drm reg_no
+[4drm gp
+[5drm sgpa
+[6drm s1gpa_raw
+[7drm s2gpa_raw
+[8drm cgpa
+[10dend=`date +%s%N`
+[11decho Execution time was `expr $end - $start` nanoseconds.
+[12d[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[9d[?12l[?25h[?25l[6d[?12l[?25h[?25l[3d[?12l[?25h[?25l[2;22r[2;1H[2T[1;24r[2;1Hrm result_c
+[3drm result
+[A[?12l[?25h[?25l7[2;22r8[3T[1;24r[2;1Hrm result_temp1
+[3drm result_temp
+[4drm result_cs
+[2d[?12l[?25h[?25l7[2;22r8[3T[1;24r[4;1H# Removing the Process & Temp files
+[2d[?12l[?25h[?25l7[2;21r8[3T[1;24r[3;1H# Displaying the Result using Column Command
+[4dcolumn -t -s',' output.txt
+[2d[?12l[?25h[?25l7[2;21r8[3T[1;24r[2;1H# Adding Column Names
+[3dsed -i '1iRoll No.,Register No.,Name,S1 SGPA,S2 SGPA,CGPA' output.txt
+[A[?12l[?25h[?25l7[2;21r8[3T[1;24r[2;1H}' result > output.txt
+[?12l[?25h[?25l7[2;21r8[3T[1;24r[2;1H# Rearranging the Columns
+[3dawk -F, '{[4;5Hprintf("%s,%s,%s,%s,%s,%s\n",$6,$1,$5,$2,$3,$4)
+[2d[?12l[?25h[?25l7[2;21r8[3T[1;24r[2;1Hjoin -1 1 -t, cgpa class_list.txt > result
+[?12l[?25h[?25l7[2;21r8[3T[1;24r[4;1H# Joining CGPA & Class List
+[2d[?12l[?25h[?25l7[2;21r8[3T[1;24r[2;17Hprintf("%s,%s,%s,Not Completed\n",$1,$2,$3)[3;17H}[4;9H}' sgpa > cgpa
+[2d[?12l[?25h[?25l7[2;22r8[3T[1;24r[2;17Hprintf("%s,%s,%s,%0.2f\n",$1,$2,$3,cgpa)[3;9H}[4dif (flag == 1) {
+[2d[?12l[?25h[?25l7[2;22r8[3T[1;24r[2;9H}[3dcgpa = sum/2[4;9Hif (flag == 0) {
+[2d[?12l[?25h[?25l7[2;21r8[3T[1;24r[2;25H$var = "Failed(" $var*-1 ")"[3;17H}[4dsum += $var
+[2d[?12l[?25h[?25l7[2;22r8[3T[1;24r[2;17Hif($var <= 0)[3;17H{[4;25Hflag = 1
+[2d[?12l[?25h[?25l7[2;21r8[3T[1;24r[2;5Hflag = 0[3;5Hfor(var =2; var<=NF; var++)[4;9H{
+[2d[?12l[?25h[?25l7[2;21r8[3T[1;24r[2;1H# Calculating CGPA & Whether the Student have Completed First Year
+[3dawk '{[4dsum = 0
+[2d[?12l[?25h[?25l7[2;21r8[3T[1;24r[2;1Hjoin s1gpa_raw s2gpa_raw > sgpa
+[?12l[?25h[?25l7[2;21r8[3T[1;24r[4;1H# Joining S1 and S2 SGPAs
+[2d[?12l[?25h[?25l7[2;21r8[3T[1;24r[2;17Hprintf("%s %d\n",$1,fails)[3;9H}
+[4d}' gp > s2gpa_raw
+[2d[?12l[?25h[?25l7[2;21r8[3T[1;24r[2;17Hprintf("%s %0.2f\n",$1,cgpa)[3;9H}[4dif (flag == 1) {
+[2d[?12l[?25h[?25l7[2;21r8[3T[1;24r[2;9H}[3dcgpa = sum/9[4;9Hif (flag == 0) {
+[2d[?12l[?25h[?25l7[2;21r8[3T[1;24r[2;25Hfails = fails - 1[3;17H}[4dsum += $var
+[2d[?12l[?25h[?25l7[2;22r8[3T[1;24r[2;17Hif($var == 0)[3;17H{[4;25Hflag = 1
+[2d[?12l[?25h[?25l7[2;21r8[3T[1;24r[2;9Hfails = 0[3;9Hfor(var =2; var<=NF; var++)[4;9H{
+[2d[?12l[?25h[?25l7[2;21r8[3T[1;24r[2;1Hawk '{[3d  sum = 0[4;9Hflag = 0
+[2d[?12l[?25h[?25l7[2;21r8[3T[1;24r[2;9Hprint $1,$3,$5,$7,$9,$11,$13,$15,$17,$19
+[3d }' result_c > gp
+[A[?12l[?25h[?25l7[2;21r8[3T[1;24r[2;1Hsed -i 's/(Absent)/ 0/g' result_c
+[4dawk  '{
+[2d[?12l[?25h[?25l7[2;21r8[3T[1;24r[2;1Hsed -i 's/(F)/ 0/g' result_c
+[3dsed -i 's/(FE)/ 0/g' result_c
+[4dsed -i 's/(I)/ 0/g' result_c
+[2d[?12l[?25h[?25l7[2;21r8[3T[1;24r[2;1Hsed -i 's/(B)/ 7/g' result_c
+[3dsed -i 's/(C)/ 6/g' result_c
+[4dsed -i 's/(P)/ 5/g' result_c
+[2d[?12l[?25h[?25l7[2;21r8[3T[1;24r[2;1Hsed -i 's/(A+)/ 9/g' result_c
+[3dsed -i 's/(A)/ 8.5/g' result_c
+[4dsed -i 's/(B+)/ 8/g' result_c
+[2d[?12l[?25h[?25l7[2;21r8[3T[1;24r[2;1Hgrep -f reg_no result_all > result_c
+[4dsed -i 's/(O)/ 10/g' result_c
+[2d[?12l[?25h[?25l7[2;22r8[3T[1;24r[2;1Hsed 's/CHN/\nCHN/g' result_temp > result_temp1
+[3dtr  ',' ' ' < result_temp1 > result_all
+[A[?12l[?25h[?25l7[2;21r8[3T[1;24r[2;1Htr  '\n' ' ' < result_cs > result_temp
+[3dsed 's/\t//g' result_temp > result_temp1
+[4dawk '{$1=$1;print}' result_temp1 > result_temp
+[2d[?12l[?25h[?25l7[2;21r8[3T[1;24r[2;1Hpdftotext -layout result_s2.pdf result
+[3dgrep --no-group-separator -A3 "CHN18CS" result > result_cs
+[A[?12l[?25h[?25l7[2;21r8[3T[1;24r[4;1H# Repeating Everything For S2
+[2d[?12l[?25h[?25l7[2;21r8[3T[1;24r[2;17Hprintf("%s %d\n",$1,fails)[3;9H}
+[4d}' gp > s1gpa_raw
+[2d[?12l[?25h[?25l7[2;21r8[3T[1;24r[2;17Hprintf("%s %0.2f\n",$1,cgpa)[3;9H}[4dif (flag == 1) {
+[2d[?12l[?25h[?25l7[2;22r8[3T[1;24r[2;9H}[3dcgpa = sum/9[4;9Hif (flag == 0) {
+[2d[?12l[?25h[?25l7[2;21r8[3T[1;24r[2;25Hfails = fails - 1[3;17H}[4dsum += $var
+[2d[?12l[?25h[?25l7[2;22r8[3T[1;24r[2;17Hif($var == 0)[3;17H{[4;25Hflag = 1
+[2d[?12l[?25h[?25l7[2;21r8[3T[1;24r[2;9Hfails = 0[3;9Hfor(var =2; var<=NF; var++)[4;9H{
+[2d[?12l[?25h[?25l7[2;21r8[3T[1;24r[2;1Hawk '{[3d  sum = 0[4;9Hflag = 0
+[2d[?12l[?25h[?25l7[2;21r8[3T[1;24r[3;1H# Computes SGPA and counts subjects failed in
+[A[?12l[?25h[?25l7[2;21r8[3T[1;24r[2;1Hawk  '{[3d print $1,$3,$5,$7,$9,$11,$13,$15,$17,$19
+[4d }' result_c > gp
+[2d[?12l[?25h[?25l7[2;21r8[3T[1;24r[2;1Hsed -i 's/(Absent)/ 0/g' result_c
+[4d# Seperating the Grade Points
+[2d[?12l[?25h[?25l7[2;21r8[3T[1;24r[2;1Hsed -i 's/(F)/ 0/g' result_c
+[3dsed -i 's/(FE)/ 0/g' result_c
+[4dsed -i 's/(I)/ 0/g' result_c
+[2d[?12l[?25h[?25l7[2;21r8[3T[1;24r[2;1Hsed -i 's/(B)/ 7/g' result_c
+[3dsed -i 's/(C)/ 6/g' result_c
+[4dsed -i 's/(P)/ 5/g' result_c
+[2d[?12l[?25h[?25l7[2;21r8[3T[1;24r[2;1Hsed -i 's/(A+)/ 9/g' result_c
+[3dsed -i 's/(A)/ 8.5/g' result_c
+[4dsed -i 's/(B+)/ 8/g' result_c
+[2d[?12l[?25h[?25l7[2;22r8[3T[1;24r[3;1H# Applying Grade Points to Grades
+[4dsed -i 's/(O)/ 10/g' result_c
+[2d[?12l[?25h[?25l7[2;21r8[3T[1;24r[2;1Hawk -F "\"*,\"*" '{print $1}' class_list.txt > reg_no
+[3dgrep -f reg_no result_all > result_c
+[A[?12l[?25h[?25l7[2;21r8[3T[1;24r[4;1H# Sorting out Results of C Batch only using Register No. of Students
+[2d[?12l[?25h[?25l7[2;21r8[3T[1;24r[2;1Hawk '{$1=$1;print}' result_temp1 > result_temp
+[3dsed 's/CHN/\nCHN/g' result_temp > result_temp1
+[4dtr  ',' ' ' < result_temp1 > result_all
+[2d[?12l[?25h[?25l7[2;21r8[3T[1;24r[2;1H# Cleans up and arranges the data in organised manner
+[3dtr  '\n' ' ' < result_cs > result_temp
+[4dsed 's/\t//g' result_temp > result_temp1
+[2d[?12l[?25h[?25l7[2;21r8[3T[1;24r[2;1H# Separates out results of CS students
+[3dgrep --no-group-separator -A3 "CHN18CS" result > result_cs
+[A[?12l[?25h[?25l7[2;21r8[3T[1;24r[2;1H# Coverts .pdf to .txt
+[3dpdftotext -layout result_s1.pdf result
+[A[?12l[?25h[?25l7[2;22r8[3T[1;24r[2;1H# Clears current screen
+[3dclear
+[A[?12l[?25h[?25l7[2;21r8[3T[1;24r[3;1Hstart=`date +%s%N`
+[A[?12l[?25h[?25l7[2;22r8M[1;24r[2;1H#!/bin/bash
+[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[22d(B[0;7mSave modified buffer?                                                                                [23;1H Y(B[m Yes[K
+[24d(B[0;7m N(B[m No  [15G  (B[0;7m^C(B[m Cancel[K[22;23H[?12l[?25h[?25l
+[23d(B[0;7m^G(B[m Get Help[23;26H(B[0;7mM-D(B[m DOS Format[23;51H(B[0;7mM-A(B[m Append[23;76H(B[0;7mM-B(B[m Backup File
+[24d(B[0;7m^C(B[m Cancel[17G         (B[0;7mM-M(B[m Mac Format[24;51H(B[0;7mM-P(B[m Prepend[24;76H(B[0;7m^T(B[m To Files
+[22d(B[0;7mFile Name to Write: script.sh
+(B[m[22;30H[?12l[?25h[?25l[22;43H[1K (B[0;7m[ Writing... ](B[m[K[1;92H(B[0;7m        (B[m[22;42H(B[0;7m[ Wrote 181 lines ](B[m
+[J[24d[?12l[?25h[24;1H[?1049l[23;0;0t
+[?1l>[?2004l]0;thejusr@veronica:~/Desktop/FOSS LAB/CS203/0404[01;32m[thejusr@veronica[01;37m 0404[01;32m]$[00m dir
+class_list.txt	result_s1.pdf  result_s2.pdf  script.sh
+]0;thejusr@veronica:~/Desktop/FOSS LAB/CS203/0404[01;32m[thejusr@veronica[01;37m 0404[01;32m]$[00m sh script.sh
+[H[2J[3JRoll No.  Register No.  Name                    S1 SGPA    S2 SGPA    CGPA
+1         CHN18CS002    Abhiith P               Failed(4)  Failed(6)  Not Completed
+2         CHN18CS003    Abin Binu Sam           9.33       9.11       9.22
+3         CHN18CS005    Adhil Shahanad K K      8.06       7.94       8.00
+4         CHN18CS006    Adwaith Sivan           Failed(3)  Failed(2)  Not Completed
+5         CHN18CS007    Aju George Jacob        8.56       8.56       8.56
+6         CHN18CS008    Akhil Ravindran         7.94       8.44       8.19
+7         CHN18CS012    Alka Anna Sabu          8.22       7.94       8.08
+8         CHN18CS015    Amal Ramachandran       Failed(4)  Failed(1)  Not Completed
+9         CHN18CS018    Anjana S                9.33       9.67       9.50
+10        CHN18CS023    Aravind R               7.89       8.56       8.22
+11        CHN18CS024    Arjun A                 Failed(3)  Failed(4)  Not Completed
+12        CHN18CS025    Arjun G Krishna         8.11       8.06       8.09
+13        CHN18CS028    Ashik David Abraham     Failed(2)  Failed(2)  Not Completed
+14        CHN18CS029    Ashna A                 9.17       9.33       9.25
+15        CHN18CS035    Deepa Mariam George     9.17       9.22       9.20
+16        CHN18CS037    Devika J                8.44       8.22       8.33
+17        CHN18CS039    Emmanuel Shine Joseph   8.17       8.50       8.34
+18        CHN18CS043    George Mani             8.06       8.61       8.34
+19        CHN18CS046    Gopika Pradeep          Failed(2)  7.89       Not Completed
+20        CHN18CS047    Gopika Suresh           Failed(1)  Failed(1)  Not Completed
+21        CHN18CS048    Gopudas K M             Failed(4)  Failed(4)  Not Completed
+22        CHN18CS049    Govind Kartha           8.56       8.78       8.67
+23        CHN18CS051    Habel James George      Failed(2)  Failed(2)  Not Completed
+24        CHN18CS052    Hari S R                Failed(5)  Failed(4)  Not Completed
+25        CHN18CS053    Heleena Anna Varghese   7.72       Failed(1)  Not Completed
+26        CHN18CS055    Irene Maria Zachariah   Failed(1)  8.17       Not Completed
+27        CHN18CS056    Jalena Mathew           8.39       8.11       8.25
+28        CHN18CS057    Jeenu Chacko            8.06       8.17       8.12
+29        CHN18CS060    Jessal John Mammen      Failed(1)  Failed(3)  Not Completed
+30        CHN18CS061    Jesswin W Varghese      Failed(2)  Failed(5)  Not Completed
+31        CHN18CS063    Jibin Joseph            8.44       8.28       8.36
+32        CHN18CS064    Jisa Surendran          Failed(1)  Failed(1)  Not Completed
+33        CHN18CS068    Jonathan John Varghese  7.83       8.11       7.97
+34        CHN18CS069    Joshena Joseph          8.22       8.28       8.25
+35        CHN18CS071    Justin Joseph           Failed(3)  Failed(3)  Not Completed
+36        CHN18CS073    Kavya M                 8.83       8.83       8.83
+37        CHN18CS076    Kiran U                 Failed(1)  Failed(1)  Not Completed
+38        CHN18CS079    Manu Mathew             7.89       7.67       7.78
+39        CHN18CS080    Margret Jaison          9.33       9.44       9.38
+40        CHN18CS082    Muhammad Jalal          7.89       Failed(1)  Not Completed
+41        CHN18CS083    Munish Kumar            Failed(4)  Failed(1)  Not Completed
+42        CHN18CS084    Najeeb                  7.78       8.00       7.89
+43        CHN18CS090    Nimmy George            Failed(5)  Failed(5)  Not Completed
+44        CHN18CS092    Nivea Gigen             8.83       9.33       9.08
+45        CHN18CS093    Nivya Maria Mathew      9.61       9.44       9.52
+46        CHN18CS095    Parvathy Krishnan       9.11       9.44       9.27
+47        CHN18CS096    Parvathy Santhosh       8.00       8.11       8.05
+48        CHN18CS097    Prayank P Nair          8.06       Failed(2)  Not Completed
+49        CHN18CS100    Remya C                 8.83       Failed(1)  Not Completed
+50        CHN18CS101    Remya Raveedranathan    7.94       Failed(1)  Not Completed
+51        CHN18CS103    Rinu Elisabath Mathew   9.00       9.00       9.00
+52        CHN18CS104    Rojin K Sunny           9.11       8.83       8.97
+53        CHN18CS108    Sarath Kumar S          Failed(3)  7.56       Not Completed
+54        CHN18CS109    Saurav K.J              Failed(2)  7.33       Not Completed
+55        CHN18CS110    Seba Susan Mathew       Failed(1)  Failed(3)  Not Completed
+56        CHN18CS111    Shilpa Sajan Punnoose   8.33       8.56       8.45
+57        CHN18CS113    Sona Sebastian          8.50       7.89       8.20
+58        CHN18CS114    Soumyamol S             Failed(1)  Failed(3)  Not Completed
+59        CHN18CS115    Sreejith Murali         8.72       Failed(1)  Not Completed
+60        CHN18CS118    Thejus R                8.06       Failed(2)  Not Completed
+61        CHN18CS120    Vishnu S S              7.11       Failed(2)  Not Completed
+62        CHN18CS121    Vishwanath R Athrey     8.22       7.78       8.00
+63        CHN18CS122    Vivek K P               8.56       9.00       8.78
+Execution time was 697917799 nanoseconds.
+
+]0;thejusr@veronica:~/Desktop/FOSS LAB/CS203[01;32m[thejusr@veronica[01;37m CS203[01;32m]$[00m exit
+exit
+
+Script done on 2020-04-04 17:16:14+05:30 [COMMAND_EXIT_CODE="1"]

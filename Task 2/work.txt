@@ -1,165 +1,0 @@
-Script started on 2020-03-29 11:39:40+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="77" LINES="25"]
-]0;thejusr@veronica:~/Desktop/FOSS Lab/Task 2[01;32m[thejusr@veronica[01;37m Task 2[01;32m]$[00m mkdir s1
-]0;thejusr@veronica:~/Desktop/FOSS Lab/Task 2[01;32m[thejusr@veronica[01;37m Task 2[01;32m]$[00m su[K[Knano shell [K_script.sh
-[?2004h[?1049h[22;0;0t[1;25r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[23;32H(B[0;7m[ Reading... ](B[m[23;31H(B[0;7m[ Read 69 lines ](B[m[H(B[0;7m  GNU nano 4.9                   shell_script.sh                             [1;76H(B[m[24d(B[0;7m^G(B[m Get Help    (B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut Text    (B[0;7m^J(B[m Justify[25d(B[0;7m^X(B[m Exit[25;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste Text  (B[0;7m^T(B[m To Spell[23d[2d[39;49m(B[m#!/bin/bash[5dclear[7dpdftotext -layout result_CHN.pdf result_CHN.txt[9d# Separate result of CS students[10dgrep --no-group-separator -A3 "CHN18CS" result_CHN.txt > result_cs.txt[12dtr  '\n' ' ' < result_cs.txt > result_dump.txt[13dsed 's/\t//g' result_dump.txt > result_dump1.txt[14dawk '{$1=$1;print}' result_dump1.txt > result_dump.txt[15dsed 's/CHN/\nCHN/g' result_dump.txt > result_dump1.txt[16dtr  ',' ' ' < result_dump1.txt > result.txt[18dsed -i 's/(O)/ 10/g' result.txt[19dsed -i 's/(A+)/ 9/g' result.txt[20dsed -i 's/(A)/ 8.5/g' result.txt[21dsed -i 's/(B+)/ 8/g' result.txt[22dsed -i 's/(B)/ 7/g' result.txt[2d[?12l[?25h[?25l[1;68H(B[0;7mModified(B[m[2dq#!/bin/bashq[?12l[?25h[?25l7[2;22r8M[1;25r[2;1Hq[3d[1P[?12l[?25h[?25l[3;22r[22;1H
-[1;25r[2;2H#!/bin/bash[22dsed -i 's/(B)/ 7/g' result.txt[2dq[?12l[?25h[?25l[1P[?12l[?25h[?25l[23d(B[0;7mSave modified buffer?                                                        [24;1H Y(B[m Yes[K[25d(B[0;7m N(B[m No  [25;16H (B[0;7m^C(B[m Cancel[K[23;23H[?12l[?25h[?25l[J[25d[?12l[?25h[25;1H[?1049l[23;0;0t[?1l>[?2004l]0;thejusr@veronica:~/Desktop/FOSS Lab/Task 2[01;32m[thejusr@veronica[01;37m Task 2[01;32m]$[00m cd s1
-]0;thejusr@veronica:~/Desktop/FOSS Lab/Task 2/s1[01;32m[thejusr@veronica[01;37m s1[01;32m]$[00m cd s1nano shell_script.sh
-[?2004h[?1049h[22;0;0t[1;25r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[23;33H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 4.9                   shell_script.sh                             [1;76H(B[m[24d(B[0;7m^G(B[m Get Help    (B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut Text    (B[0;7m^J(B[m Justify[25d(B[0;7m^X(B[m Exit[25;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste Text  (B[0;7m^T(B[m To Spell[23d[2d[39;49m(B[m[?12l[?25h[?25l[1;68H(B[0;7mModified[23d(B[m[K[1;76H[2drm result.txt[3drm result_cs.txt[4drm result_dump.txt[5drm result_dump1.txt[6drm gp.txt[7drm cgpa_raw.txt[9dclear[11dcat cgpa.txt[12d[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[9d[?12l[?25h[?25l[6d[?12l[?25h[?25l[3d[?12l[?25h[?25l[2;23r[2;1H[2T[1;25r[2;1Hjoin cbatch_list cgpa_raw.txt > cgpa.txt[?12l[?25h[?25l7[2;23r8[3T[1;25r[2;1H[?12l[?25h[?25l7[2;23r8[3T[1;25r[2;17Hprintf("%s failed in %d subjects. \n",$1,fails)[3;9H}[4d}' gp.txt > cgpa_raw.txt[2d[?12l[?25h[?25l7[2;23r8[3T[1;25r[2;17Hprintf("%s %0.2f\n",$1,cgpa)[3;9H}[4dif (flag == 1) {[2d[?12l[?25h[?25l7[2;22r8[3T[1;25r[2;9H}[3dcgpa = sum/9[4;9Hif (flag == 0) {[2d[?12l[?25h[?25l7[2;22r8[3T[1;25r[2;25Hfails = fails + 1[3;17H}[4dsum += $var[2d[?12l[?25h[?25l7[2;22r8[3T[1;25r[2;17Hif($var == 0)[3;17H{[4;25Hflag = 1[2d[?12l[?25h[?25l7[2;22r8[3T[1;25r[2;9Hfails = 0[3;9Hfor(var =2; var<=NF; var++)[4;9H{[2d[?12l[?25h[?25l7[2;23r8[3T[1;25r[2;1Hawk '{[3d  sum = 0[4;9Hflag = 0[2d[?12l[?25h[?25l7[2;22r8[3T[1;25r[2;9Hprint $1,$3,$5,$7,$9,$11,$13,$15,$17,$19[3d }' result.txt > gp.txt[A[?12l[?25h[?25l7[2;22r8[3T[1;25r[4;1Hawk  '{[2d[?12l[?25h[?25l7[2;22r8[3T[1;25r[2;1Hsed -i 's/(FE)/ 0/g' result.txt[3dsed -i 's/(I)/ 0/g' result.txt[4dsed -i 's/(Absent)/ 0/g' result.txt[2d[?12l[?25h[?25l7[2;22r8[3T[1;25r[2;1Hsed -i 's/(C)/ 6/g' result.txt[3dsed -i 's/(P)/ 5/g' result.txt[4dsed -i 's/(F)/ 0/g' result.txt[2d[?12l[?25h[?25l7[2;22r8[3T[1;25r[2;1Hsed -i 's/(A)/ 8.5/g' result.txt[3dsed -i 's/(B+)/ 8/g' result.txt[4dsed -i 's/(B)/ 7/g' result.txt[2d[?12l[?25h[?25l[5d[?12l[?25h[?25l[8d[?12l[?25h[?25l[11d[?12l[?25h[?25l[14d[?12l[?25h[?25l[17d[?12l[?25h[?25l[20d[?12l[?25h[?25l[17d[?12l[?25h[?25l[14d[?12l[?25h[?25l[11d[?12l[?25h[?25l[8d[?12l[?25h[?25l[5d[?12l[?25h[?25l[8d[?12l[?25h[?25l[5d[?12l[?25h[?25l[2d[?12l[?25h[?25l7[2;22r8[3T[1;25r[3;1Hsed -i 's/(O)/ 10/g' result.txt[4dsed -i 's/(A+)/ 9/g' result.txt[2d[?12l[?25h[?25l7[2;22r8[3T[1;25r[2;1Hawk '{$1=$1;print}' result_dump1.txt > result_dump.txt[3dsed 's/CHN/\nCHN/g' result_dump.txt > result_dump1.txt[4dtr  ',' ' ' < result_dump1.txt > result.txt[2d[?12l[?25h[?25l7[2;22r8[3T[1;25r[3;1Htr  '\n' ' ' < result_cs.txt > result_dump.txt[4dsed 's/\t//g' result_dump.txt > result_dump1.txt[2d[?12l[?25h[?25l7[2;23r8[3T[1;25r[3;1H# Separate result of CS students[4dgrep --no-group-separator -A3 "CHN18CS" result_CHN.txt > result_cs.txt[2d[?12l[?25h[?25l7[2;22r8[3T[1;25r[2;1Hclear[4dpdftotext -layout result_CHN.pdf result_CHN.txt[2d[?12l[?25h[?25l7[2;22r8[3T[1;25r[2;1H#!/bin/bash[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[5d[?12l[?25h[?25l[8d[?12l[?25h[?25l[11d[?12l[?25h[?25l[14d[?12l[?25h[?25l[17d[?12l[?25h[?25l[20d[?12l[?25h[?25l[2;23r[23;1H
-[1;25r[22;1Hsed -i 's/(C)/ 6/g' result.txt[?12l[?25h[?25l7[2;23r8[23d[3S[1;25r[20;1Hsed -i 's/(P)/ 5/g' result.txt[21dsed -i 's/(F)/ 0/g' result.txt[22dsed -i 's/(FE)/ 0/g' result.txt[?12l[?25h[?25l7[2;23r8[23d[3S[1;25r[20;1Hsed -i 's/(I)/ 0/g' result.txt[21dsed -i 's/(Absent)/ 0/g' result.txt[22d[?12l[?25h[?25l7[2;23r8[23d[3S[1;25r[21;1Hawk  '{[22d print $1,$3,$5,$7,$9,$11,$13,$15,$17,$19[?12l[?25h[?25l7[2;23r8[23d[3S[1;25r[20;2H}' result.txt > gp.txt[22dawk '{[?12l[?25h[?25l7[2;23r8[23d[3S[1;25r[20;9Hsum = 0[21;9Hflag = 0[22;9Hfails = 0[?12l[?25h[?25l7[2;23r8[23d[3S[1;25r[20;9Hfor(var =2; var<=NF; var++)[21;9H{[22;17Hif($var == 0)[?12l[?25h[?25l7[2;23r8[23d[3S[1;25r[20;17H{[21;25Hflag = 1[22;25Hfails = fails + 1[?12l[?25h[?25l7[2;23r8[23d[3S[1;25r[20;17H}[21dsum += $var[22;9H}[?12l[?25h[?25l7[2;23r8[23d[3S[1;25r[20;9Hcgpa = sum/9[21;9Hif (flag == 0) {[22;17Hprintf("%s %0.2f\n",$1,cgpa)[?12l[?25h[?25l7[2;23r8[23d[3S[1;25r[20;9H}[21dif (flag == 1) {[22;17Hprintf("%s failed in %d subjects. \n",$1,fails)[?12l[?25h[?25l7[2;23r8[23d[3S[1;25r[20;9H}[21d}' gp.txt > cgpa_raw.txt[22d[?12l[?25h[?25l7[2;23r8[23d[3S[1;25r[22;1Hjoin cbatch_list cgpa_raw.txt > cgpa.txt[?12l[?25h[?25l7[2;23r8[23d[3S[1;25r[21;1Hrm result.txt[22drm result_cs.txt[?12l[?25h[?25l7[2;23r8[23d[3S[1;25r[20;1Hrm result_dump.txt[21drm result_dump1.txt[22drm gp.txt[?12l[?25h[?25l7[2;23r8[23d[3S[1;25r[20;1Hrm cgpa_raw.txt[22dclear[?12l[?25h[?25l7[2;23r8[23d[3S[1;25r[21;1Hcat cgpa.txt[22d[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[23d(B[0;7mSave modified buffer?                                                        [24;1H Y(B[m Yes[K[25d(B[0;7m N(B[m No  [25;16H (B[0;7m^C(B[m Cancel[K[23;23H[?12l[?25h[?25l[24d(B[0;7m^G(B[m Get Help[24;20H(B[0;7mM-D(B[m DOS Format     (B[0;7mM-A(B[m Append[24;58H(B[0;7mM-B(B[m Backup File[25d(B[0;7m^C(B[m Cancel[17G   (B[0;7mM-M(B[m Mac Format     (B[0;7mM-P(B[m Prepend[25;58H(B[0;7m^T(B[m To Files[23d(B[0;7mFile Name to Write: shell_script.sh(B[m[23;36H[?12l[?25h[?25l[31G[1K (B[0;7m[ Writing... ](B[m[K[1;68H(B[0;7m        (B[m[23;30H(B[0;7m[ Wrote 69 lines ](B[m[J[25d[?12l[?25h[25;1H[?1049l[23;0;0t[?1l>[?2004l]0;thejusr@veronica:~/Desktop/FOSS Lab/Task 2/s1[01;32m[thejusr@veronica[01;37m s1[01;32m]$[00m sh shell_script.sh
-[H[2J[3J[H[2J[3JCHN18CS002 Abhijith P  failed in 4 subjects. 
-CHN18CS003 Abin Binu Sam 9.33
-CHN18CS005 Adhil Shahanad K K  8.06
-CHN18CS006 Adwaith Sivan  failed in 3 subjects. 
-CHN18CS007 Aju George Jacob  8.56
-CHN18CS008 Akhil Ravindran  7.94
-CHN18CS012 Alka Anna Sabu  8.22
-CHN18CS015 Amal Ramachandran  failed in 4 subjects. 
-CHN18CS018 Anjana S  9.33
-CHN18CS023 Aravind R  7.89
-CHN18CS024 Arjun A  failed in 3 subjects. 
-CHN18CS025 Arjun G Krishna 8.11
-CHN18CS028 Ashik David Abraham failed in 2 subjects. 
-CHN18CS029 Ashna A  9.17
-CHN18CS035 Deepa Mariam George  9.17
-CHN18CS037 Devika J  8.44
-CHN18CS039 Emmanuel Shine Joseph  8.17
-CHN18CS043 George Mani  8.06
-CHN18CS046 Gopika Pradeep failed in 2 subjects. 
-CHN18CS047 Gopika Suresh  failed in 1 subjects. 
-CHN18CS048 Gopudas KM  failed in 4 subjects. 
-CHN18CS049 Govind Kartha  8.56
-CHN18CS051 Habel James George  failed in 2 subjects. 
-CHN18CS052 Hari S R  failed in 5 subjects. 
-CHN18CS053 Heleena Anna Varghese  7.72
-CHN18CS055 lrene Maria Zachariah  failed in 1 subjects. 
-CHN18CS056 Jalena Mathew  8.39
-CHN18CS057 Jeenu Chacko  8.06
-CHN18CS060 Jessal John Mammen  failed in 1 subjects. 
-CHN18CS061 Jesswin W Varghese  failed in 2 subjects. 
-CHN18CS063 Jibin Joseph  8.44
-CHN18CS064 Jisa Surendran failed in 1 subjects. 
-CHN18CS068 Jonathan John Varghese  7.83
-CHN18CS069 Joshena Joseph 8.22
-CHN18CS071 Justin Joseph failed in 3 subjects. 
-CHN18CS073 Kavya M 8.83
-CHN18CS076 Kiran U  failed in 1 subjects. 
-CHN18CS079 Manu Mathew  7.89
-CHN18CS080 Margret Jaison  9.33
-CHN18CS082 Muhammad Jalal  7.89
-CHN18CS083 Munish Kumar  failed in 4 subjects. 
-CHN18CS084 Najeeb  7.78
-CHN18CS090 Nimmy George  failed in 5 subjects. 
-CHN18CS092 Nivea Gigen  8.83
-CHN18CS093 Nivya Maria Mathew  9.61
-CHN18CS095 Parvathy Krishnan  9.11
-CHN18CS096 Parvathy Santhosh  8.00
-CHN18CS097 Prayank P Nair  8.06
-CHN18CS100 Remya C  8.83
-CHN18CS101 Remya Raveedranathan 7.94
-CHN18CS103 Rinu Elisabath Mathew  9.00
-CHN18CS104 Rojin K Sunny  9.11
-CHN18CS108 Sarath Kumar S  failed in 3 subjects. 
-CHN18CS109 Saurav K J  failed in 2 subjects. 
-CHN18CS110 Seba Susan Mathew  failed in 1 subjects. 
-CHN18CS111 Shilpa Sajan Punnose 8.33
-CHN18CS113 Sona Sebastrian 8.50
-CHN18CS114 Soumyamol S  failed in 1 subjects. 
-CHN18CS115 Sreejith Murali 8.72
-CHN18CS118 Thejus R  8.06
-CHN18CS120 Vishnu SS  7.11
-CHN18CS121 Vishvanath R Athreya 8.22
-CHN18CS122 Vivek K P  8.56
-]0;thejusr@veronica:~/Desktop/FOSS Lab/Task 2/s1[01;32m[thejusr@veronica[01;37m s1[01;32m]$[00m cd
-]0;thejusr@veronica:~[01;32m[thejusr@veronica[01;37m ~[01;32m]$[00m dr[K[Kpwd
-/home/thejusr
-]0;thejusr@veronica:~[01;32m[thejusr@veronica[01;37m ~[01;32m]$[00m /home/thejusr/Desktop/FOSS Lab/Task 2[1@c[1@s[1@ [1P[1P[1@d[1@ 
-bash: cd: too many arguments
-]0;thejusr@veronica:~[01;32m[thejusr@veronica[01;37m ~[01;32m]$[00m cd /home/thejusr/Desktop/FOSS Lab/Task 2[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpwd[K[1Pcdsh shell_script.sh[2@nano[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd s1[Knano shell_script.sh[12Pmkdir s1S1[K[K[K[K[K[K[K[Kcd Desktop
-]0;thejusr@veronica:~/Desktop[01;32m[thejusr@veronica[01;37m Desktop[01;32m]$[00m cs[Kd FOSS Lab
-bash: cd: too many arguments
-]0;thejusr@veronica:~/Desktop[01;32m[thejusr@veronica[01;37m Desktop[01;32m]$[00m cd FOSS Lab[1PLab/Lab
-bash: cd: FOSS/Lab: No such file or directory
-]0;thejusr@veronica:~/Desktop[01;32m[thejusr@veronica[01;37m Desktop[01;32m]$[00m dir
-FOSS\ Lab
-]0;thejusr@veronica:~/Desktop[01;32m[thejusr@veronica[01;37m Desktop[01;32m]$[00m cd Fo[KOSS\ Lab
-]0;thejusr@veronica:~/Desktop/FOSS Lab[01;32m[thejusr@veronica[01;37m FOSS Lab[01;32m]$[00m cd R[KTask 2
-bash: cd: too many arguments
-]0;thejusr@veronica:~/Desktop/FOSS Lab[01;32m[thejusr@veronica[01;37m FOSS Lab[01;32m]$[00m cd Task 2\ 2
-]0;thejusr@veronica:~/Desktop/FOSS Lab/Task 2[01;32m[thejusr@veronica[01;37m Task 2[01;32m]$[00m dir
-cbatch_list  result_CHN.pdf  s1		      work.txt
-cgpa.txt     result_CHN.txt  shell_script.sh
-]0;thejusr@veronica:~/Desktop/FOSS Lab/Task 2[01;32m[thejusr@veronica[01;37m Task 2[01;32m]$[00m mkdir s2
-]0;thejusr@veronica:~/Desktop/FOSS Lab/Task 2[01;32m[thejusr@veronica[01;37m Task 2[01;32m]$[00m cd s2
-]0;thejusr@veronica:~/Desktop/FOSS Lab/Task 2/s2[01;32m[thejusr@veronica[01;37m s2[01;32m]$[00m cd s2[3@mkdir[C[C[C[5Pdircd Task\ 2[1P 2FOSS\ Labdir[Kcd FOSS/Lab Lab[1PDesktop/home/thejusr/Desktop/FOSS Lab/Task 2[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpwd[K[1Pcdsh shell_script.sh[2@nano[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd s1[Knano shell_script.sh[2Psh[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
-[H[2J[3J[H[2J[3JCHN18CS002 Abhijith P  failed in 6 subjects. 
-CHN18CS003 Abin Binu Sam 9.11
-CHN18CS005 Adhil Shahanad K K  7.94
-CHN18CS006 Adwaith Sivan  failed in 2 subjects. 
-CHN18CS007 Aju George Jacob  8.56
-CHN18CS008 Akhil Ravindran  8.44
-CHN18CS012 Alka Anna Sabu  7.94
-CHN18CS015 Amal Ramachandran  failed in 1 subjects. 
-CHN18CS018 Anjana S  9.67
-CHN18CS023 Aravind R  8.56
-CHN18CS024 Arjun A  failed in 4 subjects. 
-CHN18CS025 Arjun G Krishna 8.06
-CHN18CS028 Ashik David Abraham failed in 2 subjects. 
-CHN18CS029 Ashna A  9.33
-CHN18CS035 Deepa Mariam George  9.22
-CHN18CS037 Devika J  8.22
-CHN18CS039 Emmanuel Shine Joseph  8.50
-CHN18CS043 George Mani  8.61
-CHN18CS046 Gopika Pradeep 7.89
-CHN18CS047 Gopika Suresh  failed in 1 subjects. 
-CHN18CS048 Gopudas KM  failed in 4 subjects. 
-CHN18CS049 Govind Kartha  8.78
-CHN18CS051 Habel James George  failed in 2 subjects. 
-CHN18CS052 Hari S R  failed in 4 subjects. 
-CHN18CS053 Heleena Anna Varghese  failed in 1 subjects. 
-CHN18CS055 lrene Maria Zachariah  8.17
-CHN18CS056 Jalena Mathew  8.11
-CHN18CS057 Jeenu Chacko  8.17
-CHN18CS060 Jessal John Mammen  failed in 3 subjects. 
-CHN18CS061 Jesswin W Varghese  failed in 5 subjects. 
-CHN18CS063 Jibin Joseph  8.28
-CHN18CS064 Jisa Surendran failed in 1 subjects. 
-CHN18CS068 Jonathan John Varghese  8.11
-CHN18CS069 Joshena Joseph 8.28
-CHN18CS071 Justin Joseph failed in 3 subjects. 
-CHN18CS073 Kavya M 8.83
-CHN18CS076 Kiran U  failed in 1 subjects. 
-CHN18CS079 Manu Mathew  7.67
-CHN18CS080 Margret Jaison  9.44
-CHN18CS082 Muhammad Jalal  failed in 1 subjects. 
-CHN18CS083 Munish Kumar  failed in 1 subjects. 
-CHN18CS084 Najeeb  8.00
-CHN18CS090 Nimmy George  failed in 5 subjects. 
-CHN18CS092 Nivea Gigen  9.33
-CHN18CS093 Nivya Maria Mathew  9.44
-CHN18CS095 Parvathy Krishnan  9.44
-CHN18CS096 Parvathy Santhosh  8.11
-CHN18CS097 Prayank P Nair  failed in 2 subjects. 
-CHN18CS100 Remya C  failed in 1 subjects. 
-CHN18CS101 Remya Raveedranathan failed in 1 subjects. 
-CHN18CS103 Rinu Elisabath Mathew  9.00
-CHN18CS104 Rojin K Sunny  8.83
-CHN18CS108 Sarath Kumar S  7.56
-CHN18CS109 Saurav K J  7.33
-CHN18CS110 Seba Susan Mathew  failed in 3 subjects. 
-CHN18CS111 Shilpa Sajan Punnose 8.56
-CHN18CS113 Sona Sebastrian 7.89
-CHN18CS114 Soumyamol S  failed in 3 subjects. 
-CHN18CS115 Sreejith Murali failed in 1 subjects. 
-CHN18CS118 Thejus R  failed in 2 subjects. 
-CHN18CS120 Vishnu SS  failed in 2 subjects. 
-CHN18CS121 Vishvanath R Athreya 7.78
-CHN18CS122 Vivek K P  9.00
-]0;thejusr@veronica:~/Desktop/FOSS Lab/Task 2/s2[01;32m[thejusr@veronica[01;37m s2[01;32m]$[00m script stop
-Script started, output log file is 'stop'.
-]0;thejusr@veronica:~/Desktop/FOSS Lab/Task 2/s2[01;32m[thejusr@veronica[01;37m s2[01;32m]$[00m exit
-exit
-Script done.
-]0;thejusr@veronica:~/Desktop/FOSS Lab/Task 2/s2[01;32m[thejusr@veronica[01;37m s2[01;32m]$[00m exit
-exit
-
-Script done on 2020-03-29 11:49:52+05:30 [COMMAND_EXIT_CODE="0"]

@@ -1,0 +1,31 @@
+CEC CS 18 C59
+Thejus R
+
+----------------------------------------------------------
+#6: Aim/task : Linux Installation
+----------------------------------------------------------
+
+-------------------------------
+ Steps Followed :
+------------------------------
+1. downloaded Manjaro KDE.iso
+2. Created a bootable USB
+3. Booted Manjaro Live USB via Boot menu
+4. Selected the Time Zone, System Language & Keyboard Layout 
+5. Made new partitions :
+                        ~512MB for EFI Partitions (FAT32)
+                        ~4GB for Swap Partition (Swap)
+                        ~Remaining for Root Partition (ext4)
+6. Defined User Name, Password, System Name.
+7. After the Installation, Booted Manjaro Linux from Hard Drive 
+8.Updated and Upgraded Manjaro Using the following Shell Command:
+    $su
+    $pacman -S Syu
+    
+
+-------------------
+ Remarks if any:
+-------------------
+#1 : Successfully installed Linux OS in my laptop
+
+#2 : The Linux Distro was upgraded to the Latest Version Available

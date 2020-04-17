@@ -1,0 +1,157 @@
+Script started on 2020-04-17 18:43:48+05:30 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="96" LINES="30"]
+]0;thejusr@veronica:~/Desktop/FOSS LAB[01;32m[thejusr@veronica[01;37m FOSS LAB[01;32m]$[00m mkdir git[K[K[KGit\[K
+]0;thejusr@veronica:~/Desktop/FOSS LAB[01;32m[thejusr@veronica[01;37m FOSS LAB[01;32m]$[00m cd Git
+]0;thejusr@veronica:~/Desktop/FOSS LAB/Git[01;32m[thejusr@veronica[01;37m Git[01;32m]$[00m git inti[K[Kit
+Initialized empty Git repository in /home/thejusr/Desktop/FOSS LAB/Git/.git/
+]0;thejusr@veronica:~/Desktop/FOSS LAB/Git[01;32m[thejusr@veronica[01;37m Git[01;32m]$[00m gi[K[Kgit init[2Pcd Git[3@mkdir[C[C[C[Cgit pull https://github.com/ceccs18c59/cs232
+remote: Enumerating objects: 80, done.[K
+remote: Counting objects:   1% (1/80)[Kremote: Counting objects:   2% (2/80)[Kremote: Counting objects:   3% (3/80)[Kremote: Counting objects:   5% (4/80)[Kremote: Counting objects:   6% (5/80)[Kremote: Counting objects:   7% (6/80)[Kremote: Counting objects:   8% (7/80)[Kremote: Counting objects:  10% (8/80)[Kremote: Counting objects:  11% (9/80)[Kremote: Counting objects:  12% (10/80)[Kremote: Counting objects:  13% (11/80)[Kremote: Counting objects:  15% (12/80)[Kremote: Counting objects:  16% (13/80)[Kremote: Counting objects:  17% (14/80)[Kremote: Counting objects:  18% (15/80)[Kremote: Counting objects:  20% (16/80)[Kremote: Counting objects:  21% (17/80)[Kremote: Counting objects:  22% (18/80)[Kremote: Counting objects:  23% (19/80)[Kremote: Counting objects:  25% (20/80)[Kremote: Counting objects:  26% (21/80)[Kremote: Counting objects:  27% (22/80)[Kremote: Counting objects:  28% (23/80)[Kremote: Counting objects:  30% (24/80)[Kremote: Counting objects:  31% (25/80)[Kremote: Counting objects:  32% (26/80)[Kremote: Counting objects:  33% (27/80)[Kremote: Counting objects:  35% (28/80)[Kremote: Counting objects:  36% (29/80)[Kremote: Counting objects:  37% (30/80)[Kremote: Counting objects:  38% (31/80)[Kremote: Counting objects:  40% (32/80)[Kremote: Counting objects:  41% (33/80)[Kremote: Counting objects:  42% (34/80)[Kremote: Counting objects:  43% (35/80)[Kremote: Counting objects:  45% (36/80)[Kremote: Counting objects:  46% (37/80)[Kremote: Counting objects:  47% (38/80)[Kremote: Counting objects:  48% (39/80)[Kremote: Counting objects:  50% (40/80)[Kremote: Counting objects:  51% (41/80)[Kremote: Counting objects:  52% (42/80)[Kremote: Counting objects:  53% (43/80)[Kremote: Counting objects:  55% (44/80)[Kremote: Counting objects:  56% (45/80)[Kremote: Counting objects:  57% (46/80)[Kremote: Counting objects:  58% (47/80)[Kremote: Counting objects:  60% (48/80)[Kremote: Counting objects:  61% (49/80)[Kremote: Counting objects:  62% (50/80)[Kremote: Counting objects:  63% (51/80)[Kremote: Counting objects:  65% (52/80)[Kremote: Counting objects:  66% (53/80)[Kremote: Counting objects:  67% (54/80)[Kremote: Counting objects:  68% (55/80)[Kremote: Counting objects:  70% (56/80)[Kremote: Counting objects:  71% (57/80)[Kremote: Counting objects:  72% (58/80)[Kremote: Counting objects:  73% (59/80)[Kremote: Counting objects:  75% (60/80)[Kremote: Counting objects:  76% (61/80)[Kremote: Counting objects:  77% (62/80)[Kremote: Counting objects:  78% (63/80)[Kremote: Counting objects:  80% (64/80)[Kremote: Counting objects:  81% (65/80)[Kremote: Counting objects:  82% (66/80)[Kremote: Counting objects:  83% (67/80)[Kremote: Counting objects:  85% (68/80)[Kremote: Counting objects:  86% (69/80)[Kremote: Counting objects:  87% (70/80)[Kremote: Counting objects:  88% (71/80)[Kremote: Counting objects:  90% (72/80)[Kremote: Counting objects:  91% (73/80)[Kremote: Counting objects:  92% (74/80)[Kremote: Counting objects:  93% (75/80)[Kremote: Counting objects:  95% (76/80)[Kremote: Counting objects:  96% (77/80)[Kremote: Counting objects:  97% (78/80)[Kremote: Counting objects:  98% (79/80)[Kremote: Counting objects: 100% (80/80)[Kremote: Counting objects: 100% (80/80), done.[K
+remote: Compressing objects:   1% (1/66)[Kremote: Compressing objects:   3% (2/66)[Kremote: Compressing objects:   4% (3/66)[Kremote: Compressing objects:   6% (4/66)[Kremote: Compressing objects:   7% (5/66)[Kremote: Compressing objects:   9% (6/66)[Kremote: Compressing objects:  10% (7/66)[Kremote: Compressing objects:  12% (8/66)[Kremote: Compressing objects:  13% (9/66)[Kremote: Compressing objects:  15% (10/66)[Kremote: Compressing objects:  16% (11/66)[Kremote: Compressing objects:  18% (12/66)[Kremote: Compressing objects:  19% (13/66)[Kremote: Compressing objects:  21% (14/66)[Kremote: Compressing objects:  22% (15/66)[Kremote: Compressing objects:  24% (16/66)[Kremote: Compressing objects:  25% (17/66)[Kremote: Compressing objects:  27% (18/66)[Kremote: Compressing objects:  28% (19/66)[Kremote: Compressing objects:  30% (20/66)[Kremote: Compressing objects:  31% (21/66)[Kremote: Compressing objects:  33% (22/66)[Kremote: Compressing objects:  34% (23/66)[Kremote: Compressing objects:  36% (24/66)[Kremote: Compressing objects:  37% (25/66)[Kremote: Compressing objects:  39% (26/66)[Kremote: Compressing objects:  40% (27/66)[Kremote: Compressing objects:  42% (28/66)[Kremote: Compressing objects:  43% (29/66)[Kremote: Compressing objects:  45% (30/66)[Kremote: Compressing objects:  46% (31/66)[Kremote: Compressing objects:  48% (32/66)[Kremote: Compressing objects:  50% (33/66)[Kremote: Compressing objects:  51% (34/66)[Kremote: Compressing objects:  53% (35/66)[Kremote: Compressing objects:  54% (36/66)[Kremote: Compressing objects:  56% (37/66)[Kremote: Compressing objects:  57% (38/66)[Kremote: Compressing objects:  59% (39/66)[Kremote: Compressing objects:  60% (40/66)[Kremote: Compressing objects:  62% (41/66)[Kremote: Compressing objects:  63% (42/66)[Kremote: Compressing objects:  65% (43/66)[Kremote: Compressing objects:  66% (44/66)[Kremote: Compressing objects:  68% (45/66)[Kremote: Compressing objects:  69% (46/66)[Kremote: Compressing objects:  71% (47/66)[Kremote: Compressing objects:  72% (48/66)[Kremote: Compressing objects:  74% (49/66)[Kremote: Compressing objects:  75% (50/66)[Kremote: Compressing objects:  77% (51/66)[Kremote: Compressing objects:  78% (52/66)[Kremote: Compressing objects:  80% (53/66)[Kremote: Compressing objects:  81% (54/66)[Kremote: Compressing objects:  83% (55/66)[Kremote: Compressing objects:  84% (56/66)[Kremote: Compressing objects:  86% (57/66)[Kremote: Compressing objects:  87% (58/66)[Kremote: Compressing objects:  89% (59/66)[Kremote: Compressing objects:  90% (60/66)[Kremote: Compressing objects:  92% (61/66)[Kremote: Compressing objects:  93% (62/66)[Kremote: Compressing objects:  95% (63/66)[Kremote: Compressing objects:  96% (64/66)[Kremote: Compressing objects:  98% (65/66)[Kremote: Compressing objects: 100% (66/66)[Kremote: Compressing objects: 100% (66/66), done.[K
+Unpacking objects:   1% (1/80)Unpacking objects:   2% (2/80)Unpacking objects:   3% (3/80)Unpacking objects:   5% (4/80)Unpacking objects:   6% (5/80)Unpacking objects:   7% (6/80)Unpacking objects:   8% (7/80)Unpacking objects:  10% (8/80)Unpacking objects:  11% (9/80)Unpacking objects:  12% (10/80)Unpacking objects:  13% (11/80)Unpacking objects:  15% (12/80)Unpacking objects:  16% (13/80)Unpacking objects:  17% (14/80)Unpacking objects:  18% (15/80)Unpacking objects:  20% (16/80)Unpacking objects:  21% (17/80)Unpacking objects:  22% (18/80)Unpacking objects:  23% (19/80)Unpacking objects:  25% (20/80)Unpacking objects:  26% (21/80)Unpacking objects:  27% (22/80)Unpacking objects:  28% (23/80)Unpacking objects:  30% (24/80)Unpacking objects:  31% (25/80)Unpacking objects:  32% (26/80)Unpacking objects:  33% (27/80)Unpacking objects:  35% (28/80)Unpacking objects:  36% (29/80)Unpacking objects:  37% (30/80)Unpacking objects:  38% (31/80)Unpacking objects:  40% (32/80)Unpacking objects:  41% (33/80)Unpacking objects:  42% (34/80)Unpacking objects:  43% (35/80)Unpacking objects:  43% (35/80), 172.00 KiB | 125.00 KiB/sUnpacking objects:  45% (36/80), 172.00 KiB | 125.00 KiB/sUnpacking objects:  46% (37/80), 172.00 KiB | 125.00 KiB/sUnpacking objects:  47% (38/80), 172.00 KiB | 125.00 KiB/sUnpacking objects:  47% (38/80), 596.00 KiB | 248.00 KiB/sUnpacking objects:  48% (39/80), 596.00 KiB | 248.00 KiB/sUnpacking objects:  50% (40/80), 596.00 KiB | 248.00 KiB/sUnpacking objects:  51% (41/80), 868.00 KiB | 292.00 KiB/sUnpacking objects:  51% (41/80), 1.09 MiB | 258.00 KiB/s  remote: Total 80 (delta 16), reused 37 (delta 6), pack-reused 0[K
+Unpacking objects:  52% (42/80), 1.09 MiB | 258.00 KiB/sUnpacking objects:  53% (43/80), 1.09 MiB | 258.00 KiB/sUnpacking objects:  55% (44/80), 1.09 MiB | 258.00 KiB/sUnpacking objects:  56% (45/80), 1.09 MiB | 258.00 KiB/sUnpacking objects:  57% (46/80), 1.09 MiB | 258.00 KiB/sUnpacking objects:  58% (47/80), 1.09 MiB | 258.00 KiB/sUnpacking objects:  60% (48/80), 1.09 MiB | 258.00 KiB/sUnpacking objects:  61% (49/80), 1.09 MiB | 258.00 KiB/sUnpacking objects:  62% (50/80), 1.09 MiB | 258.00 KiB/sUnpacking objects:  63% (51/80), 1.09 MiB | 258.00 KiB/sUnpacking objects:  65% (52/80), 1.09 MiB | 258.00 KiB/sUnpacking objects:  66% (53/80), 1.09 MiB | 258.00 KiB/sUnpacking objects:  67% (54/80), 1.09 MiB | 258.00 KiB/sUnpacking objects:  68% (55/80), 1.09 MiB | 258.00 KiB/sUnpacking objects:  70% (56/80), 1.09 MiB | 258.00 KiB/sUnpacking objects:  71% (57/80), 1.09 MiB | 258.00 KiB/sUnpacking objects:  72% (58/80), 1.09 MiB | 258.00 KiB/sUnpacking objects:  73% (59/80), 1.09 MiB | 258.00 KiB/sUnpacking objects:  75% (60/80), 1.09 MiB | 258.00 KiB/sUnpacking objects:  76% (61/80), 1.09 MiB | 258.00 KiB/sUnpacking objects:  77% (62/80), 1.09 MiB | 258.00 KiB/sUnpacking objects:  78% (63/80), 1.09 MiB | 258.00 KiB/sUnpacking objects:  80% (64/80), 1.09 MiB | 258.00 KiB/sUnpacking objects:  81% (65/80), 1.09 MiB | 258.00 KiB/sUnpacking objects:  82% (66/80), 1.09 MiB | 258.00 KiB/sUnpacking objects:  83% (67/80), 1.09 MiB | 258.00 KiB/sUnpacking objects:  85% (68/80), 1.09 MiB | 258.00 KiB/sUnpacking objects:  86% (69/80), 1.09 MiB | 258.00 KiB/sUnpacking objects:  87% (70/80), 1.09 MiB | 258.00 KiB/sUnpacking objects:  88% (71/80), 1.09 MiB | 258.00 KiB/sUnpacking objects:  90% (72/80), 1.09 MiB | 258.00 KiB/sUnpacking objects:  91% (73/80), 1.09 MiB | 258.00 KiB/sUnpacking objects:  92% (74/80), 1.09 MiB | 258.00 KiB/sUnpacking objects:  93% (75/80), 1.09 MiB | 258.00 KiB/sUnpacking objects:  95% (76/80), 1.09 MiB | 258.00 KiB/sUnpacking objects:  96% (77/80), 1.09 MiB | 258.00 KiB/sUnpacking objects:  97% (78/80), 1.09 MiB | 258.00 KiB/sUnpacking objects:  98% (79/80), 1.09 MiB | 258.00 KiB/sUnpacking objects: 100% (80/80), 1.09 MiB | 258.00 KiB/sUnpacking objects: 100% (80/80), 1.12 MiB | 261.00 KiB/s, done.
+From https://github.com/ceccs18c59/cs232
+ * branch            HEAD       -> FETCH_HEAD
+]0;thejusr@veronica:~/Desktop/FOSS LAB/Git[01;32m[thejusr@veronica[01;37m Git[01;32m]$[00m mk[K[Kf[Kdir
+0302  0404  1404  2701	index.html
+]0;thejusr@veronica:~/Desktop/FOSS LAB/Git[01;32m[thejusr@veronica[01;37m Git[01;32m]$[00m mkdir 1704
+]0;thejusr@veronica:~/Desktop/FOSS LAB/Git[01;32m[thejusr@veronica[01;37m Git[01;32m]$[00m cd 1704
+]0;thejusr@veronica:~/Desktop/FOSS LAB/Git/1704[01;32m[thejusr@veronica[01;37m 1704[01;32m]$[00m 
+]0;thejusr@veronica:~/Desktop/FOSS LAB/Git/1704[01;32m[thejusr@veronica[01;37m 1704[01;32m]$[00m touch script1.sh
+]0;thejusr@veronica:~/Desktop/FOSS LAB/Git/1704[01;32m[thejusr@veronica[01;37m 1704[01;32m]$[00m nano script1.sh
+[?2004h[?1049h[22;0;0t[1;30r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[28;42H(B[0;7m[ Reading... ](B[m[28;41H(B[0;7m[ Read 0 lines ](B[m[H(B[0;7m  GNU nano 4.9                               script1.sh                                         [1;95H(B[m[29d(B[0;7m^G(B[m Get Help     (B[0;7m^O(B[m Write Out    (B[0;7m^W(B[m Where Is     (B[0;7m^K(B[m Cut Text     (B[0;7m^J(B[m Justify[81G(B[0;7m^C(B[m Cur Pos[30d(B[0;7m^X(B[m Exit[30;17H(B[0;7m^R(B[m Read File    (B[0;7m^\(B[m Replace[49G(B[0;7m^U(B[m Paste Text   (B[0;7m^T(B[m To Spell     (B[0;7m^_(B[m Go To Line[28d[2d[39;49m(B[m[?12l[?25h[?25l[1;87H(B[0;7mModified[28d(B[m[K[1;95H[2decho Current Path Settings : >> output.txt[3decho $PATH >> output.txt[4decho >>output.txt[7decho Current Working Directory : >> output.txt[8dpwd >> output.txt[9decho >>output.txt[12decho No. of Currently Logged in Users: >> output.txt[13dwho -q >> output.txt[15dcat output.txt[?12l[?25h[?25l[12d[?12l[?25h[?25l[9d[?12l[?25h[?25l[6d[?12l[?25h[?25l[3;15H[?12l[?25h[?25l[2;28r[2;1H[2T[1;30r[2;1H[?12l[?25h[?25l7[2;28r8[3T[1;30r[2;1Hecho Operating System Type : >> output.txt[3dlsb_release -a >> output.txt[4decho >>output.txt[2;15H[?12l[?25h[?25l7[2;28r8[3T[1;30r[2;1Hecho >>output.txt[?12l[?25h[?25l7[2;28r8[3T[1;30r[3;1Hecho Home Directory : >> output.txt[4decho $HOME >> output.txt[2d[?12l[?25h[?25l7[2;28r8[3T[1;30r[2;1Hecho Current Shell : >> output.txt[3decho $SHELL >> output.txt[4decho >>output.txt[2;15H[?12l[?25h[?25l7[2;27r8[6T[1;30r[4;1Hecho Currently Logged User : > output.txt[5decho $USER >> output.txt[6decho >>output.txt[2d[?12l[?25h[?25l7[2;27r8M[1;30r[2;1H#!/bin/bash[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[5;15H[?12l[?25h[?25l[8d[?12l[?25h[?25l[11;15H[?12l[?25h[?25l[14d[?12l[?25h[?25l[17d[?12l[?25h[?25l[20;15H[?12l[?25h[?25l[28d(B[0;7mSave modified buffer?                                                                           [29;1H Y(B[m Yes[K[30d(B[0;7m N(B[m No  [30;18H(B[0;7mC(B[m Cancel[K[28;23H[?12l[?25h[?25l[29d(B[0;7m^G(B[m Get Help[29;25H(B[0;7mM-D(B[m DOS Format[29;49H(B[0;7mM-A(B[m Append[29;73H(B[0;7mM-B(B[m Backup File[30d(B[0;7m^C(B[m Cancel[17G        (B[0;7mM-M(B[m Mac Format[30;49H(B[0;7mM-P(B[m Prepend[30;73H(B[0;7m^T(B[m To Files[28d(B[0;7mFile Name to Write: script1.sh(B[m[28;31H[?12l[?25h[?25l(B[0;7my(B[m[28;32H[?12l[?25h[?25l(B[0;7m (B[m[28;31H[?12l[?25h[?25l[28;41H[1K (B[0;7m[ Writing... ](B[m[K[1;87H(B[0;7m        (B[m[28;40H(B[0;7m[ Wrote 35 lines ](B[m[J[30d[?12l[?25h[30;1H[?1049l[23;0;0t[?1l>[?2004l]0;thejusr@veronica:~/Desktop/FOSS LAB/Git/1704[01;32m[thejusr@veronica[01;37m 1704[01;32m]$[00m sh script1.sh
+Currently Logged User :
+thejusr
+
+Current Shell :
+/bin/bash
+
+Home Directory :
+/home/thejusr
+
+Operating System Type :
+LSB Version:	n/a
+Distributor ID:	ManjaroLinux
+Description:	Manjaro Linux
+Release:	19.0.2
+Codename:	Kyria
+
+Current Path Settings :
+/home/thejusr/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/var/lib/snapd/snap/bin
+
+Current Working Directory :
+/home/thejusr/Desktop/FOSS LAB/Git/1704
+
+No. of Currently Logged in Users:
+thejusr thejusr thejusr thejusr
+# users=4
+]0;thejusr@veronica:~/Desktop/FOSS LAB/Git/1704[01;32m[thejusr@veronica[01;37m 1704[01;32m]$[00m touch script2.sh
+]0;thejusr@veronica:~/Desktop/FOSS LAB/Git/1704[01;32m[thejusr@veronica[01;37m 1704[01;32m]$[00m nano script2.sh
+[?2004h[?1049h[22;0;0t[1;30r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[28;42H(B[0;7m[ Reading... ](B[m[28;41H(B[0;7m[ Read 0 lines ](B[m[H(B[0;7m  GNU nano 4.9                               script2.sh                                         [1;95H(B[m[29d(B[0;7m^G(B[m Get Help     (B[0;7m^O(B[m Write Out    (B[0;7m^W(B[m Where Is     (B[0;7m^K(B[m Cut Text     (B[0;7m^J(B[m Justify[81G(B[0;7m^C(B[m Cur Pos[30d(B[0;7m^X(B[m Exit[30;17H(B[0;7m^R(B[m Read File    (B[0;7m^\(B[m Replace[49G(B[0;7m^U(B[m Paste Text   (B[0;7m^T(B[m To Spell     (B[0;7m^_(B[m Go To Line[28d[2d[39;49m(B[m[?12l[?25h[?25l[1;87H(B[0;7mModified[28d(B[m[K[1;95H[2decho Memory Information : >> output.txt[3dfree -h >> output.txt[4decho >>output.txt[6decho Storage Devices : >> output.txt[7dlsblk >> output.txt[8decho >>output.txt[10decho File System Information : >> output.txt[11ddf >> output.txt[12decho >>output.txt[14dcat output.txt[15d[?12l[?25h[?25l[28d(B[0;7mSave modified buffer?                                                                           [29;1H Y(B[m Yes[K[30d(B[0;7m N(B[m No  [30;18H(B[0;7mC(B[m Cancel[K[28;23H[?12l[?25h[?25l[29d(B[0;7m^G(B[m Get Help[29;25H(B[0;7mM-D(B[m DOS Format[29;49H(B[0;7mM-A(B[m Append[29;73H(B[0;7mM-B(B[m Backup File[30d(B[0;7m^C(B[m Cancel[17G        (B[0;7mM-M(B[m Mac Format[30;49H(B[0;7mM-P(B[m Prepend[30;73H(B[0;7m^T(B[m To Files[28d(B[0;7mFile Name to Write: script2.sh(B[m[28;31H[?12l[?25h[?25l[28;41H[1K (B[0;7m[ Writing... ](B[m[K[1;87H(B[0;7m        (B[m[28;40H(B[0;7m[ Wrote 48 lines ](B[m[J[30d[?12l[?25h[30;1H[?1049l[23;0;0t[?1l>[?2004l]0;thejusr@veronica:~/Desktop/FOSS LAB/Git/1704[01;32m[thejusr@veronica[01;37m 1704[01;32m]$[00m nano script2.sh[1@touch[C[C[C[C[C[C[C[C[C[C[C[3Psh script1.sh[1P.sh2.sh
+Kernal Name :
+Linux
+
+Kernal Release :
+5.4.28-1-MANJARO
+
+Kernal Version :
+#1 SMP PREEMPT Wed Mar 25 12:45:29 UTC 2020
+
+Network Node Hostname :
+veronica
+
+Machine Hardware Arch :
+x86_64
+
+Processor Type :
+unknown
+
+List of available Shells :
+/bin/sh
+/bin/bash
+/bin/zsh
+/usr/bin/zsh
+/usr/bin/git-shell
+
+CPU Information :
+Architecture:                    x86_64
+CPU op-mode(s):                  32-bit, 64-bit
+Byte Order:                      Little Endian
+Address sizes:                   39 bits physical, 48 bits virtual
+CPU(s):                          12
+On-line CPU(s) list:             0-11
+Thread(s) per core:              2
+Core(s) per socket:              6
+Socket(s):                       1
+NUMA node(s):                    1
+Vendor ID:                       GenuineIntel
+CPU family:                      6
+Model:                           158
+Model name:                      Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz
+Stepping:                        10
+CPU MHz:                         2523.562
+CPU max MHz:                     4100.0000
+CPU min MHz:                     800.0000
+BogoMIPS:                        4401.32
+Virtualization:                  VT-x
+L1d cache:                       192 KiB
+L1i cache:                       192 KiB
+L2 cache:                        1.5 MiB
+L3 cache:                        9 MiB
+NUMA node0 CPU(s):               0-11
+Vulnerability Itlb multihit:     KVM: Mitigation: Split huge pages
+Vulnerability L1tf:              Mitigation; PTE Inversion; VMX conditional cache flushes, SMT vulnerable
+Vulnerability Mds:               Mitigation; Clear CPU buffers; SMT vulnerable
+Vulnerability Meltdown:          Mitigation; PTI
+Vulnerability Spec store bypass: Mitigation; Speculative Store Bypass disabled via prctl and seccomp
+Vulnerability Spectre v1:        Mitigation; usercopy/swapgs barriers and __user pointer sanitization
+Vulnerability Spectre v2:        Mitigation; Full generic retpoline, IBPB conditional, IBRS_FW, STIBP conditional, RSB filling
+Vulnerability Tsx async abort:   Not affected
+Flags:                           fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault epb invpcid_single pti ssbd ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid ept_ad fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid mpx rdseed adx smap clflushopt intel_pt xsaveopt xsavec xgetbv1 xsaves dtherm ida arat pln pts hwp hwp_notify hwp_act_window hwp_epp md_clear flush_l1d
+
+Memory Information :
+              total        used        free      shared  buff/cache   available
+Mem:          7.6Gi       1.8Gi       2.9Gi       384Mi       2.9Gi       5.1Gi
+Swap:         4.0Gi          0B       4.0Gi
+
+Storage Devices :
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+sda      8:0    0 931.5G  0 disk 
+├─sda1   8:1    0 900.5G  0 part 
+├─sda2   8:2    0   512M  0 part /boot/efi
+├─sda3   8:3    0     4G  0 part [SWAP]
+└─sda4   8:4    0  26.5G  0 part /
+
+File System Information :
+Filesystem     1K-blocks     Used Available Use% Mounted on
+dev              3990596        0   3990596   0% /dev
+run              4000276     1636   3998640   1% /run
+/dev/sda4       27219252 19448556   6364952  76% /
+tmpfs            4000276    58456   3941820   2% /dev/shm
+tmpfs            4000276        0   4000276   0% /sys/fs/cgroup
+tmpfs            4000276    47532   3952744   2% /tmp
+/dev/sda2         523248      316    522932   1% /boot/efi
+tmpfs             800052       16    800036   1% /run/user/1000
+
+]0;thejusr@veronica:~/Desktop/FOSS LAB/Git/1704[01;32m[thejusr@veronica[01;37m 1704[01;32m]$[00m dir
+output.txt  script1.sh	script2.sh
+]0;thejusr@veronica:~/Desktop/FOSS LAB/Git/1704[01;32m[thejusr@veronica[01;37m 1704[01;32m]$[00m cd ../
+]0;thejusr@veronica:~/Desktop/FOSS LAB/Git[01;32m[thejusr@veronica[01;37m Git[01;32m]$[00m git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m1704/[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+]0;thejusr@veronica:~/Desktop/FOSS LAB/Git[01;32m[thejusr@veronica[01;37m Git[01;32m]$[00m git ass[K[Kdd 1704
+]0;thejusr@veronica:~/Desktop/FOSS LAB/Git[01;32m[thejusr@veronica[01;37m Git[01;32m]$[00m git stuatu[K[K[K[K[Ka[Ktatus
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mnew file:   1704/output.txt[m
+	[32mnew file:   1704/script1.sh[m
+	[32mnew file:   1704/script2.sh[m
+
+]0;thejusr@veronica:~/Desktop/FOSS LAB/Git[01;32m[thejusr@veronica[01;37m Git[01;32m]$[00m exit
+exit
+
+Script done on 2020-04-17 18:48:20+05:30 [COMMAND_EXIT_CODE="0"]

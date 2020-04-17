@@ -1,0 +1,270 @@
+CEC CS 18 C59
+Thejus R
+
+----------------------------------------------------------------------
+#1: Experiment 4 : Shell script to show various system configuration.
+----------------------------------------------------------------------
+
+---------------------------
+ Input and Output of Shell
+---------------------------
+
+$ mkdir 1704
+$ cd 1704
+$ touch script1.sh
+$ nano script1.sh
+$ sh script1.sh
+
+Currently Logged User :
+thejusr
+
+Current Shell :
+/bin/bash
+
+Home Directory :
+/home/thejusr
+
+Operating System Type :
+LSB Version:    n/a
+Distributor ID: ManjaroLinux
+Description:    Manjaro Linux
+Release:        19.0.2
+Codename:       Kyria
+
+Current Path Settings :
+/home/thejusr/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/var/lib/snapd/snap/bin
+
+Current Working Directory :
+/home/thejusr/Desktop/FOSS LAB/Exp4
+
+No. of Currently Logged in Users:
+thejusr thejusr thejusr thejusr
+# users=4
+
+-------------------------
+ Script File
+-------------------------
+
+#!/bin/bash
+
+
+echo Currently Logged User : > output.txt
+echo $USER >> output.txt
+echo >>output.txt
+
+echo Current Shell : >> output.txt
+echo $SHELL >> output.txt
+echo >>output.txt
+
+echo Home Directory : >> output.txt
+echo $HOME >> output.txt
+echo >>output.txt
+
+
+echo Operating System Type : >> output.txt
+lsb_release -a >> output.txt
+echo >>output.txt
+
+
+echo Current Path Settings : >> output.txt
+echo $PATH >> output.txt
+echo >>output.txt
+
+
+echo Current Working Directory : >> output.txt
+pwd >> output.txt
+echo >>output.txt
+
+
+echo No. of Currently Logged in Users: >> output.txt
+who -q >> output.txt
+
+cat output.txt
+
+-------------------
+ Remarks if any:
+-------------------
+#1 : Successfully shown various system information like:
+        Current Logged User
+        Current Shell
+        Home Directory
+        Operating System Type
+        Current Path Settings
+        Current Working Directory
+        No. of Users Logged in
+
+#2 : The Script was executed Successfully
+=====================================================================================
+
+
+
+----------------------------------------------------------------------
+#2: Experiment 5 : Shell script to show various system configuration.
+----------------------------------------------------------------------
+
+---------------------------
+ Input and Output of Shell
+---------------------------
+
+$ touch script2.sh
+$ nano script2.sh
+$ sh script2.sh
+
+Kernal Name :
+Linux
+
+Kernal Release :
+5.4.28-1-MANJARO
+
+Kernal Version :
+#1 SMP PREEMPT Wed Mar 25 12:45:29 UTC 2020
+
+Network Node Hostname :
+veronica
+
+Machine Hardware Arch :
+x86_64
+
+Processor Type :
+unknown
+
+List of available Shells :
+/bin/sh
+/bin/bash
+/bin/zsh
+/usr/bin/zsh
+/usr/bin/git-shell
+
+CPU Information :
+Architecture:                    x86_64
+CPU op-mode(s):                  32-bit, 64-bit
+Byte Order:                      Little Endian
+Address sizes:                   39 bits physical, 48 bits virtual
+CPU(s):                          12
+On-line CPU(s) list:             0-11
+Thread(s) per core:              2
+Core(s) per socket:              6
+Socket(s):                       1
+NUMA node(s):                    1
+Vendor ID:                       GenuineIntel
+CPU family:                      6
+Model:                           158
+Model name:                      Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz
+Stepping:                        10
+CPU MHz:                         3337.526
+CPU max MHz:                     4100.0000
+CPU min MHz:                     800.0000
+BogoMIPS:                        4401.32
+Virtualization:                  VT-x
+L1d cache:                       192 KiB
+L1i cache:                       192 KiB
+L2 cache:                        1.5 MiB
+L3 cache:                        9 MiB
+NUMA node0 CPU(s):               0-11
+Vulnerability Itlb multihit:     KVM: Mitigation: Split huge pages
+Vulnerability L1tf:              Mitigation; PTE Inversion; VMX conditional cache flushes, SMT vulnerable
+Vulnerability Mds:               Mitigation; Clear CPU buffers; SMT vulnerable
+Vulnerability Meltdown:          Mitigation; PTI
+Vulnerability Spec store bypass: Mitigation; Speculative Store Bypass disabled via prctl and seccomp
+Vulnerability Spectre v1:        Mitigation; usercopy/swapgs barriers and __user pointer sanitization
+Vulnerability Spectre v2:        Mitigation; Full generic retpoline, IBPB conditional, IBRS_FW, STIBP conditional, RSB filling
+Vulnerability Tsx async abort:   Not affected
+Flags:                           fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault epb invpcid_single pti ssbd ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid ept_ad fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid mpx rdseed adx smap clflushopt intel_pt xsaveopt xsavec xgetbv1 xsaves dtherm ida arat pln pts hwp hwp_notify hwp_act_window hwp_epp md_clear flush_l1d
+
+Memory Information :
+              total        used        free      shared  buff/cache   available
+Mem:          7.6Gi       1.8Gi       3.0Gi       424Mi       2.9Gi       5.2Gi
+Swap:         4.0Gi          0B       4.0Gi
+
+Storage Devices :
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+sda      8:0    0 931.5G  0 disk 
+├─sda1   8:1    0 900.5G  0 part 
+├─sda2   8:2    0   512M  0 part /boot/efi
+├─sda3   8:3    0     4G  0 part [SWAP]
+└─sda4   8:4    0  26.5G  0 part /
+
+File System Information :
+Filesystem     1K-blocks     Used Available Use% Mounted on
+dev              3990596        0   3990596   0% /dev
+run              4000276     1636   3998640   1% /run
+/dev/sda4       27219252 19439424   6374084  76% /
+tmpfs            4000276    85284   3914992   3% /dev/shm
+tmpfs            4000276        0   4000276   0% /sys/fs/cgroup
+tmpfs            4000276    47532   3952744   2% /tmp
+/dev/sda2         523248      316    522932   1% /boot/efi
+tmpfs             800052       16    800036   1% /run/user/1000
+
+-------------------------
+ Script File
+-------------------------
+
+#!/bin/bash
+
+echo Kernal Name : > output.txt
+uname -s >> output.txt
+echo >>output.txt
+
+
+echo Kernal Release : >> output.txt
+uname -r >> output.txt
+echo >>output.txt
+
+echo Kernal Version : >> output.txt
+uname -v >> output.txt
+echo >>output.txt
+
+echo Network Node Hostname :>> output.txt
+uname -n >> output.txt
+echo >>output.txt
+
+echo Machine Hardware Arch : >> output.txt
+uname -m >> output.txt
+echo >>output.txt
+
+echo Processor Type : >> output.txt
+uname -p >> output.txt
+echo >>output.txt
+
+echo List of available Shells : >> output.txt
+chsh -l >> output.txt
+echo >>output.txt
+
+echo CPU Information : >> output.txt
+lscpu >> output.txt
+echo >>output.txt
+
+echo Memory Information : >> output.txt
+free -h >> output.txt
+echo >>output.txt
+
+echo Storage Devices : >> output.txt
+lsblk >> output.txt
+echo >>output.txt
+
+echo File System Information : >> output.txt
+df >> output.txt
+echo >>output.txt
+
+cat output.txt
+
+-------------------
+ Remarks if any:
+-------------------
+#1 : Successfully shown various system information like:
+        Kernal Name
+        Kernal Release
+        Kernal Version
+        Network Hostname
+        Hardware Architecture
+        Processor Type
+        List of Available Shells
+        CPU Information
+        Memory Information
+        Storage Devices attached
+        File System Information
+
+#2 : The Script was executed Successfully
+
+
+ 

@@ -1,0 +1,25 @@
+Currently Logged User :
+thejusr
+
+Current Shell :
+/bin/bash
+
+Home Directory :
+/home/thejusr
+
+Operating System Type :
+LSB Version:	n/a
+Distributor ID:	ManjaroLinux
+Description:	Manjaro Linux
+Release:	19.0.2
+Codename:	Kyria
+
+Current Path Settings :
+/home/thejusr/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/var/lib/snapd/snap/bin
+
+Current Working Directory :
+/home/thejusr/Desktop/FOSS LAB/Git
+
+No. of Currently Logged in Users:
+thejusr thejusr thejusr thejusr
+# users=4

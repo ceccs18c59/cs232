@@ -1,0 +1,135 @@
+CEC CS 18 C59
+Thejus R
+
+26 April, 2020
+
+----------------------------------------------------------------------
+#1: Experiment 6 : Menu driven Calculator using Shell Script
+----------------------------------------------------------------------
+
+---------------------------
+ Input and Output of Shell
+---------------------------
+
+$ mkdir 2604
+$ cd 2604
+$ touch script.sh
+$ nano script.sh
+$ sh script.sh
+
+
+Menu Driven Calculator
+
+1.Addition
+2.Subtraction
+3.Multiplication
+4.Division
+5.Exit
+
+Enter a option :1
+Enter first number : 4
+Enter second number : 6
+
+The answer is 10
+
+Menu Driven Calculator
+
+1.Addition
+2.Subtraction
+3.Multiplication
+4.Division
+5.Exit
+
+Enter a option :4
+Enter first number : 3
+Enter second number : 0
+
+Division not Possible!
+
+Menu Driven Calculator
+
+1.Addition
+2.Subtraction
+3.Multiplication
+4.Division
+5.Exit
+
+Enter a option :5
+
+
+-------------------------
+ Script File
+-------------------------
+
+#!/bin/bash
+
+clear
+ctr=work
+
+while [ $ctr == work ];
+do
+    echo
+    echo Menu Driven Calculator
+    echo
+    echo 1.Addition
+    echo 2.Subtraction
+    echo 3.Multiplication
+    echo 4.Division
+    echo 5.Exit
+    echo
+    read -p "Enter a option :" opt
+    
+    case $opt in
+        1)
+        read -p "Enter first number : " num1
+        read -p "Enter second number : " num2
+        echo
+        echo The answer is $(($num1+$num2))
+        
+        ;;
+        
+        2)
+        read -p "Enter first number : " num1
+        read -p "Enter second number : " num2
+        echo
+        echo The answer is $(($num1-$num2))
+        ;;
+        
+        3)
+        read -p "Enter first number : " num1
+        read -p "Enter second number : " num2
+        echo
+        echo The answer is $(($num1*$num2))
+        ;;
+
+        4)
+        read -p "Enter first number : " num1
+        read -p "Enter second number : " num2
+        echo
+        if [[ $num2 == 0 ]]
+        then
+            echo Division not Possible!
+        else
+        echo The answer is $(($num1/$num2))
+        fi
+        ;;
+        
+        5)
+        clear
+        exit
+        ;;
+        
+        *)
+        echo
+        echo Not a Valid Option
+        ;;
+        esac
+
+done
+
+-------------------
+ Remarks if any:
+-------------------
+#1 : Successfully scripted a Menu-driven Calculator
+#2 : The Script was executed Successfully
+=====================================================================================
